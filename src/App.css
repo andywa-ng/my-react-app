@@ -1,0 +1,403 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+    padding: 24px 42px;
+}
+@media (max-width: 991px) {
+    .container {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+}
+.sidebar {
+    border-radius: 24px;
+    background-color: var(--Black, #121212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px;
+}
+@media (max-width: 991px) {
+    .sidebar {
+        padding: 0 20px;
+    }
+}
+.sidebar-title {
+    font: 400 64px Baloo Bhai, sans-serif;
+    color: #fff;
+    align-self: start;
+}
+@media (max-width: 991px) {
+    .sidebar-title {
+        font-size: 40px;
+    }
+}
+.sidebar-icon {
+    aspect-ratio: 1;
+    width: 26px;
+    stroke-width: 2px;
+    stroke: #fff;
+    border: 2px solid #fff;
+    margin-top: 64px;
+}
+@media (max-width: 991px) {
+    .sidebar-icon {
+        margin-top: 40px;
+    }
+}
+.main-content {
+    align-self: end;
+    display: flex;
+    margin-top: 31px;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+@media (max-width: 991px) {
+    .main-content {
+        max-width: 100%;
+    }
+}
+.paper-info {
+    display: flex;
+    gap: 20px;
+}
+@media (max-width: 991px) {
+    .paper-info {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+}
+.paper-details {
+    border-radius: 14px;
+    background-color: var(--Grey, #f5f5f7);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 57%;
+    padding: 28px 33px 16px;
+}
+@media (max-width: 991px) {
+    .paper-details {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+.paper-title {
+    color: var(--Black, #121212);
+    font: 400 36px Baloo Bhai, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+    .paper-title {
+        max-width: 100%;
+    }
+}
+.paper-authors {
+    color: var(--Black, #121212);
+    margin: 15px 39px 0 0;
+    font: 400 16px/24px Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+    .paper-authors {
+        max-width: 100%;
+        margin-right: 10px;
+    }
+}
+.paper-meta {
+    display: flex;
+    margin-top: 12px;
+    width: 100%;
+    gap: 20px;
+}
+@media (max-width: 991px) {
+    .paper-meta {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+.submission-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: var(--Black, #121212);
+    font-weight: 400;
+    line-height: 24px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+@media (max-width: 991px) {
+    .submission-info {
+        max-width: 100%;
+    }
+}
+.submission-date {
+    font-family: Roboto, sans-serif;
+}
+@media (max-width: 991px) {
+    .submission-date {
+        max-width: 100%;
+    }
+}
+.paper-link {
+    font-family: Roboto, sans-serif;
+    margin-top: 10px;
+}
+@media (max-width: 991px) {
+    .paper-link {
+        max-width: 100%;
+    }
+}
+.cite-button {
+    border-radius: 8px;
+    border: 2px solid #121212;
+    background-color: var(--Black, #121212);
+    display: flex;
+    gap: 7px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 13px 28px;
+    font-family: Roboto, sans-serif;
+    }
+@media (max-width: 991px) {
+    .cite-button {
+        padding: 0 20px;
+    }
+}
+.cite-icon {
+    aspect-ratio: 1;
+    width: 9px;
+    stroke-width: 1.5px;
+    stroke: #fff;
+    border: 2px solid #fff;
+    align-self: start;
+}
+.paper-actions {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+}
+@media (max-width: 991px) {
+    .paper-actions {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+.action-buttons {
+    display: flex;
+    gap: 20px;
+    padding: 0 1px;
+}
+@media (max-width: 991px) {
+    .action-buttons {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+.action-button {
+    border-radius: 8px;
+    background-color: var(--Grey, #f5f5f7);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px 17px;
+}
+@media (max-width: 991px) {
+    .action-button {
+        padding-right: 20px;
+    }
+}
+.action-icon {
+    aspect-ratio: 1;
+    width: 20px;
+}
+.additional-action {
+    aspect-ratio: 1.41;
+    width: 56px;
+}
+.key-topics {
+    border-radius: 14px;
+    background-color: var(--Grey, #f5f5f7);
+    display: flex;
+    margin-top: 28px;
+    flex-direction: column;
+    align-items: start;
+    color: var(--Black, #121212);
+    font-weight: 400;
+    padding: 18px 15px;
+}
+@media (max-width: 991px) {
+    .key-topics {
+        max-width: 100%;
+        padding-right: 20px;
+    }
+ }
+.topics-title {
+    font: 24px Baloo Bhai, sans-serif;
+}
+.topics-list {
+    margin-top: 8px;
+    width: 407px;
+    font: 16px/24px Roboto, sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+.navigation {
+    z-index: 10;
+    display: flex;
+    margin-top: 355px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+@media (max-width: 991px) {
+    .navigation {
+        max-width: 100%;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        padding-right: 20px;
+    }
+}
+.nav-icon {
+    aspect-ratio: 1.19;
+    width: 115px;
+    align-self: end;
+    margin-top: 101px;
+    max-width: 100%;
+}
+@media (max-width: 991px) {
+    .nav-icon {
+        margin-top: 40px;
+    }
+}
+.nav-controls {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.nav-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+.nav-button {
+    aspect-ratio: 1.19;
+    width: 115px;
+    align-self: end;
+    margin-top: 101px;
+    max-width: 100%;
+}
+@media (max-width: 991px) {
+    .nav-button {
+        margin-top: 40px;
+    }
+}
+.more-options {
+    aspect-ratio: 0.21;
+    width: 29px;
+    align-self: start;
+}
+.content-footer {
+    border-radius: 14px;
+    background-color: var(--Grey, #f5f5f7);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 21px 16px 45px;
+}
+@media (max-width: 991px) {
+    .content-footer {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+.page-controls {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: 143%;
+    justify-content: space-between;
+}
+@media (max-width: 991px) {
+    .page-controls {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+.zoom-control {
+    aspect-ratio: 1.03;
+    width: 30px;
+}
+.page-indicator {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+@media (max-width: 991px) {
+    .page-indicator {
+        white-space: initial;
+    }
+}
+.page-icon {
+    aspect-ratio: 1.03;
+    width: 30px;
+}
+.page-number {
+    font-family: Baloo Bhai, sans-serif;
+    margin: auto 0;
+}
+.additional-controls {
+    align-self: end;
+    display: flex;
+    margin-top: 15px;
+    width: 576px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+@media (max-width: 991px) {
+    .additional-controls {
+        flex-wrap: wrap;
+    }
+}
+.control-group {
+    display: flex;
+    gap: 9px;
+}
+.control-icon {
+    aspect-ratio: 0.87;
+    width: 26px;
+    fill: #121212;
+    stroke-width: 3px;
+    stroke: #000;
+    border: 3px solid #000;
+}
+.more-options {
+    aspect-ratio: 1;
+    width: 24px;
+    margin: auto 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
