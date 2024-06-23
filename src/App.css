@@ -25,6 +25,7 @@
 }
 .sidebar-title {
     font: 400 64px Baloo Bhai, sans-serif;
+    font-family: 'Times New Roman';
     color: #fff;
     align-self: start;
 }
@@ -38,7 +39,7 @@
     width: 26px;
     stroke-width: 2px;
     stroke: #fff;
-    border: 2px solid #fff;
+    border: 0px solid #fff;
     margin-top: 64px;
 }
 @media (max-width: 991px) {
@@ -77,7 +78,7 @@
     flex-grow: 1;
     flex-direction: column;
     width: 57%;
-    padding: 28px 33px 16px;
+    padding: 20px 33px 40px;
 }
 @media (max-width: 991px) {
     .paper-details {
@@ -90,6 +91,8 @@
 .paper-title {
     color: var(--Black, #121212);
     font: 400 36px Baloo Bhai, -apple-system, Roboto, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
 }
 @media (max-width: 991px) {
     .paper-title {
@@ -100,6 +103,7 @@
     color: var(--Black, #121212);
     margin: 15px 39px 0 0;
     font: 400 16px/24px Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS';
 }
 @media (max-width: 991px) {
     .paper-authors {
@@ -136,6 +140,7 @@
 }
 .submission-date {
     font-family: Roboto, sans-serif;
+    font-family: 'Trebuchet MS';
 }
 @media (max-width: 991px) {
     .submission-date {
@@ -157,24 +162,24 @@
     background-color: var(--Black, #121212);
     display: flex;
     gap: 7px;
-    font-size: 13px;
+    font-size: 18px;
     color: #fff;
     font-weight: 700;
     text-align: center;
-    padding: 13px 28px;
-    font-family: Roboto, sans-serif;
-    }
+    padding: 13px 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    overflow: visible;
+ }
 @media (max-width: 991px) {
     .cite-button {
-        padding: 0 20px;
+        padding: 10px 20px;
     }
 }
 .cite-icon {
     aspect-ratio: 1;
-    width: 9px;
+    width: 12px;
     stroke-width: 1.5px;
     stroke: #fff;
-    border: 2px solid #fff;
     align-self: start;
 }
 .paper-actions {
@@ -233,23 +238,24 @@
     align-items: start;
     color: var(--Black, #121212);
     font-weight: 400;
-    padding: 18px 15px;
+    padding: 10px 30px 40px;
 }
 @media (max-width: 991px) {
     .key-topics {
         max-width: 100%;
-        padding-right: 20px;
     }
  }
 .topics-title {
-    font: 24px Baloo Bhai, sans-serif;
+    font: 27px 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 .topics-list {
     margin-top: 8px;
     width: 407px;
-    font: 16px/24px Roboto, sans-serif;
+    font: 17px 'Trebuchet MS', sans-serif;
     list-style-type: none;
     padding: 0;
+    line-height: 1.8;
 }
 .navigation {
     z-index: 10;
