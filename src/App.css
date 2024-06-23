@@ -88,6 +88,56 @@
         padding: 0 20px;
     }
 }
+.find-paper {
+    border-radius: 14px;
+    background-color: var(--Grey, #f5f5f7);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 57%;
+    padding: 20px 33px 40px;
+}
+
+@media (max-width: 991px) {
+    .find-paper {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+.text-box {
+    font: 400 15px Baloo Bhai, -apple-system, Roboto, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 300px 0px;
+}
+@media (max-width: 991px) {
+    .text-box {
+        max-width: 100%;
+    }
+}
+.button {
+    font: 400 15px Baloo Bhai, -apple-system, Roboto, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 250px 0px 250px;
+}
+@media (max-width: 991px) {
+    .button {
+        max-width: 100%;
+    }
+}
+.find-paper-title {
+    color: var(--Black, #121212);
+    font: 27px 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 0px 330px 0px 10px; /* Remove padding */
+    width: 100%; /* Make sure the title spans the full width */
+    text-align: left; /* Align text to the left */
+}
 .paper-title {
     color: var(--Black, #121212);
     font: 400 36px Baloo Bhai, -apple-system, Roboto, Helvetica, sans-serif;
